@@ -1,13 +1,13 @@
-   import { printProfile } from "./profile.js";
+import { printProfile } from './profile.js';
 
-   const userData = {
-       name: "Tom",
-       age: 17,
-   };
+const userData = {
+    name: 'Tom',
+    age: 17,
+};
 
-   const profile = {
-       ...userData,
-       company: "Gromcode",
-   };
+const profile = {
+    ...userData,
+    company: 'Gromcode',
+};
 
-   printProfile(profile);
+printProfile(profile);
