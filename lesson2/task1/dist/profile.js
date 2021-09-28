@@ -1,6 +1,7 @@
-// file path: src/profile.js
-
-const printProfile = profileData => {
-    const { name, company } = profileData;
-    console.log(`${name} from ${company}`);
+const printProfile = function(profileData) {
+    const {
+        name,
+        company
+    } = profileData;
+    console.log("".concat(name, " from ").concat(company));
 };
