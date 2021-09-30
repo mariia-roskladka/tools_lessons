@@ -2,7 +2,7 @@
 
 // здесь никакие экспорты не нужны
 
-console.log("polyfill for flatMap");
+console.log('polyfill for flatMap');
 
 Array.prototype.flatMap =
     Array.prototype.flatMap ||
